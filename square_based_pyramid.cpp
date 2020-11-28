@@ -16,9 +16,11 @@ int main() {
 
 
     // input
-    std::cout << "Enter the base edge of square based pyramid:";
+    std::cout << "We will be calculating the volume of a square based pyramid"
+    << std::endl;
+    std::cout << "Enter the base edge of square based pyramid (cm):";
     std::cin >> base_edge;
-    std::cout << "Enter the height of square based pyramid:";
+    std::cout << "Enter the height of square based pyramid (cm):";
     std::cin >> height;
 
 
